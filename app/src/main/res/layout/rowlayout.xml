@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/ivCouponImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/tvClip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="true"
+        android:layout_marginRight="10dp"
+        android:text="@string/clip_text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_toLeftOf="@+id/tvClip"
+        android:layout_toRightOf="@+id/ivCouponImage"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCouponTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvCouponDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="16sp"
+            android:maxLines="2"/>
+
+        <TextView
+            android:id="@+id/tvCouponExpiry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="TextView"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@mipmap/ic_info"
+            android:textColor="#b9b9b9"
+            android:textSize="15sp"/>
+    </LinearLayout>
+</RelativeLayout>

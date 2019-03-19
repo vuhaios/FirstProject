@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Coupons</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Coupons</string>
+    <string name="tab_text_1">Available</string>
+    <string name="tab_text_2">Clipped</string>
+    <string name="clip_text">CLIP</string>
+    <string name="total_coupons">%s TOTAL</string>
+</resources>
